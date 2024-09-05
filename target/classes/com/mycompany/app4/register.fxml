@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="609.0" prefWidth="793.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.app4.RegisterController">
+   <children>
+      <Label layoutX="223.0" layoutY="20.0" text="Basic Information" textFill="#808b85">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutX="223.0" layoutY="54.0" prefHeight="8.0" prefWidth="454.0" />
+      <TextField fx:id="firstNameField" alignment="CENTER" layoutX="223.0" layoutY="128.0" prefHeight="35.0" prefWidth="176.0" promptText="First Name" />
+      <TextField fx:id="lastNameField" alignment="CENTER" layoutX="481.0" layoutY="128.0" prefHeight="35.0" prefWidth="176.0" promptText="Last Name" />
+      <TextField fx:id="emailAddressField" alignment="CENTER" layoutX="223.0" layoutY="220.0" prefHeight="35.0" prefWidth="176.0" promptText="Email Address" />
+      <TextField fx:id="phoneNumberField" alignment="CENTER" layoutX="481.0" layoutY="220.0" prefHeight="35.0" prefWidth="176.0" promptText="Phone Number" />
+      <TextField fx:id="usernameField" alignment="CENTER" layoutX="223.0" layoutY="305.0" prefHeight="35.0" prefWidth="176.0" promptText="Set Username" />
+      <TextField fx:id="townField" alignment="CENTER" layoutX="549.0" layoutY="401.0" prefHeight="35.0" prefWidth="108.0" promptText="Town" />
+      <TextField fx:id="countryField" alignment="CENTER" layoutX="222.0" layoutY="401.0" prefHeight="35.0" prefWidth="108.0" promptText="Country" />
+      <TextField fx:id="stateField" alignment="CENTER" layoutX="390.0" layoutY="401.0" prefHeight="35.0" prefWidth="108.0" promptText="State" />
+      <PasswordField fx:id="passwordField" alignment="CENTER" layoutX="481.0" layoutY="305.0" prefHeight="35.0" prefWidth="176.0" promptText="Set Password" />
+      <Button fx:id="finishButton" layoutX="525.0" layoutY="504.0" mnemonicParsing="false" onAction="#finishButtonClicked" prefHeight="35.0" prefWidth="132.0" styleClass="btn_sign_in" stylesheets="@style.css" text="Finish" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Pane layoutX="-3.0" prefHeight="609.0" prefWidth="150.0" style="-fx-background-color: #808B85;" />
+      <Hyperlink alignment="CENTER" layoutX="223.0" layoutY="505.0" onAction="#resetAllButtonClicked" prefHeight="23.0" prefWidth="132.0" style="-fx-text-fill: #808B85;" text="Reset All">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>

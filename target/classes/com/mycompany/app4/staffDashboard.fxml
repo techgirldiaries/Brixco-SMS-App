@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="740.0" prefWidth="954.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.app4.StaffDashboardController">
+   <top>
+      <HBox alignment="CENTER" prefHeight="51.0" prefWidth="954.0" style="-fx-background-color: #808B85;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="50.0" prefWidth="165.0" text="Dashboard" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+        <tabs>
+          <Tab text="Home">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="648.0" prefWidth="871.0">
+                     <children>
+                        <Separator layoutX="326.0" layoutY="-4.0" orientation="VERTICAL" prefHeight="668.0" prefWidth="4.0" style="-fx-background-color: #808B85;" />
+                        <Pane layoutX="25.0" layoutY="77.0" prefHeight="44.0" prefWidth="225.0" style="-fx-border-color: #808b85; -fx-border-width: 2;" stylesheets="@style.css">
+                           <children>
+                              <Label layoutX="13.0" layoutY="7.0" prefHeight="36.0" prefWidth="95.0" text="Cleaning">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Pane layoutX="1.0" layoutY="50.0" prefHeight="107.0" prefWidth="222.0" style="-fx-border-color: #808b85;">
+                                 <children>
+                                    <HBox layoutX="39.0" layoutY="4.0" prefHeight="26.0" prefWidth="184.0">
+                                       <children>
+                                          <Label prefHeight="28.0" prefWidth="384.0" text="* Fantine Yvain">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox layoutX="39.0" layoutY="37.0" prefHeight="33.0" prefWidth="182.0">
+                                       <children>
+                                          <Label prefHeight="28.0" prefWidth="384.0" text="* Hana Mercurio">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox layoutX="39.0" layoutY="70.0" prefHeight="28.0" prefWidth="185.0">
+                                       <children>
+                                          <Label prefHeight="28.0" prefWidth="384.0" text="* Ayanda Rakiya">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="25.0" layoutY="263.0" prefHeight="47.0" prefWidth="225.0" style="-fx-border-color: #808b85; -fx-border-width: 2;">
+                           <children>
+                              <Pane layoutX="2.0" layoutY="52.0" prefHeight="107.0" prefWidth="222.0" style="-fx-border-color: #808b85;">
+                                 <children>
+                                    <HBox layoutX="39.0" layoutY="4.0" prefHeight="26.0" prefWidth="184.0">
+                                       <children>
+                                          <Label prefHeight="28.0" prefWidth="384.0" text="* Aaron Hoyt">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox layoutX="39.0" layoutY="37.0" prefHeight="33.0" prefWidth="183.0">
+                                       <children>
+                                          <Label prefHeight="28.0" prefWidth="384.0" text="* Duana Vena">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox layoutX="39.0" layoutY="70.0" prefHeight="28.0" prefWidth="184.0">
+                                       <children>
+                                          <Label prefHeight="28.0" prefWidth="384.0" text="* Saul Simone">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </Pane>
+                              <Label layoutX="14.0" layoutY="6.0" prefHeight="36.0" prefWidth="139.0" text="Electrical Repairs">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="27.0" layoutY="452.0" prefHeight="45.0" prefWidth="225.0" style="-fx-border-color: #808b85; -fx-border-width: 2;">
+                           <children>
+                              <Pane layoutX="2.0" layoutY="52.0" prefHeight="107.0" prefWidth="222.0" style="-fx-border-color: #808b85;">
+                                 <children>
+                                    <HBox layoutX="39.0" layoutY="4.0" prefHeight="26.0" prefWidth="183.0">
+                                       <children>
+                                          <Label prefHeight="28.0" prefWidth="384.0" text="* Ata Marinos">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox layoutX="39.0" layoutY="37.0" prefHeight="33.0" prefWidth="182.0">
+                                       <children>
+                                          <Label prefHeight="28.0" prefWidth="384.0" text="* Maria Elina">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox layoutX="39.0" layoutY="70.0" prefHeight="28.0" prefWidth="183.0">
+                                       <children>
+                                          <Label prefHeight="28.0" prefWidth="384.0" text="Palina Dorofei">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </Pane>
+                              <Label layoutX="14.0" layoutY="5.0" prefHeight="36.0" prefWidth="139.0" text="Plumbing">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="23.0" layoutY="6.0" prefHeight="41.0" prefWidth="229.0">
+                           <children>
+                              <Label layoutX="34.0" layoutY="1.0" prefHeight="39.0" prefWidth="162.0" text="Team Members">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <AnchorPane layoutX="332.0" layoutY="2.0" prefHeight="656.0" prefWidth="622.0">
+                           <children>
+                              <Button layoutX="440.0" layoutY="573.0" mnemonicParsing="false" onAction="#openAddService" prefHeight="42.0" prefWidth="121.0" styleClass="btn_sign_up" stylesheets="@style.css" text="Add Service">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                              </Button>
+                              <Pane layoutX="162.0" prefHeight="41.0" prefWidth="298.0">
+                                 <children>
+                                    <Label alignment="CENTER" layoutX="46.0" layoutY="1.0" prefHeight="39.0" prefWidth="206.0" text="Services">
+                                       <font>
+                                          <Font name="System Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Pane layoutY="5.0" prefHeight="41.0" prefWidth="298.0" />
+                                 </children>
+                              </Pane>
+                              <VBox layoutX="76.0" layoutY="60.0" prefHeight="486.0" prefWidth="485.0">
+                                 <children>
+                                    <ListView fx:id="serviceList" prefHeight="490.0" prefWidth="485.0">
+                                       <VBox.margin>
+                                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                       </VBox.margin>
+                                       <padding>
+                                          <Insets right="4.0" top="4.0" />
+                                       </padding>
+                                    </ListView>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Add Customer">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Pane layoutX="192.0" layoutY="99.0" prefHeight="414.0" prefWidth="524.0" style="-fx-border-color: #808b85;" />
+                        <Label layoutX="40.0" layoutY="21.0" prefHeight="49.0" prefWidth="398.0" text="Register New Customer" textFill="#808b85">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="regFirstNameField" alignment="CENTER" layoutX="233.0" layoutY="138.0" prefHeight="35.0" prefWidth="176.0" promptText="First Name" />
+                        <TextField fx:id="regLastNameField" alignment="CENTER" layoutX="491.0" layoutY="138.0" prefHeight="35.0" prefWidth="176.0" promptText="Last Name" />
+                        <TextField fx:id="regEmailAddressField" alignment="CENTER" layoutX="233.0" layoutY="230.0" prefHeight="35.0" prefWidth="176.0" promptText="Email Address" />
+                        <TextField fx:id="regPhoneNumberField" alignment="CENTER" layoutX="491.0" layoutY="230.0" prefHeight="35.0" prefWidth="176.0" promptText="Phone Number" />
+                        <TextField fx:id="regUsernameField" alignment="CENTER" layoutX="233.0" layoutY="315.0" prefHeight="35.0" prefWidth="176.0" promptText="Set Username" />
+                        <TextField fx:id="regTownField" alignment="CENTER" layoutX="559.0" layoutY="411.0" prefHeight="35.0" prefWidth="108.0" promptText="Town" />
+                        <TextField fx:id="regCountryField" alignment="CENTER" layoutX="232.0" layoutY="411.0" prefHeight="35.0" prefWidth="108.0" promptText="Country" />
+                        <TextField fx:id="regStateField" alignment="CENTER" layoutX="400.0" layoutY="411.0" prefHeight="35.0" prefWidth="108.0" promptText="State" />
+                        <PasswordField fx:id="regPasswordField" alignment="CENTER" layoutX="491.0" layoutY="315.0" prefHeight="35.0" prefWidth="176.0" promptText="Set Password" />
+                        <Separator layoutX="40.0" layoutY="67.0" prefHeight="5.0" prefWidth="862.0" />
+                        <Button fx:id="regButton" layoutX="584.0" layoutY="562.0" mnemonicParsing="false" onAction="#regButtonClicked" prefHeight="35.0" prefWidth="132.0" styleClass="btn_sign_in" stylesheets="@style.css" text="Register" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="View Quotes">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView layoutX="115.0" layoutY="45.0" prefHeight="501.0" prefWidth="722.0">
+                          <columns>
+                            <TableColumn prefWidth="139.0" text="Customer Name" />
+                            <TableColumn prefWidth="134.0" text="Customer Email" />
+                              <TableColumn prefWidth="81.0" text="Quote" />
+                              <TableColumn prefWidth="156.0" text="Description" />
+                          </columns>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="View Appointments">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+               </content>
+            </Tab>
+            <Tab text="Reports">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+               </content>
+            </Tab>
+        </tabs>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TabPane>
+   </center>
+</BorderPane>

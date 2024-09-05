@@ -1,0 +1,38 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 22, 2024, 8:35:33 AM
+    Author     : HP
+*/
+.right_side_pane{
+    -fx-background-color: #808B85;
+}
+
+.btn_sign_up{
+    -fx-background-color:#FFFFFF;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-style: solid;
+    -fx-border-color: #333B3A;        
+}
+
+.btn_sign_in{
+    -fx-background-color:#808B85;
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-style: solid;
+    -fx-border-color: #333B3A;        
+}
+
+.label {
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-content-display: top;
+    -fx-graphic-text-gap: 0.25em;
+    -fx-alignment: top-left;
+    -fx-text-fill: black;
+    -fx-wrap-text: true;
+}
