@@ -41,6 +41,13 @@ mvn clean install
 java -jar target/Brixco-SMS-App.jar
 ```
 
+## Authors
+
+- Oluwakemi Obadeyi
+- Abimbola Agbeleye
+- Cyril Chidiebere
+- Mawuli L Worlanyo
+
 ## License
 
 This project is licensed under the **PolyForm Noncommercial License**.  
